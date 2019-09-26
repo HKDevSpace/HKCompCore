@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'HKCompCore/Classes/**/*'
+  s.source_files = 'HKCompCore/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'HKCompCore' => ['HKCompCore/Assets/*.png']

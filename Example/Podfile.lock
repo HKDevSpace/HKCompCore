@@ -1,0 +1,23 @@
+PODS:
+  - HKCompCore (0.1.0)
+  - Kiwi (3.0.0)
+
+DEPENDENCIES:
+  - HKCompCore (from `../`)
+  - Kiwi
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Kiwi
+
+EXTERNAL SOURCES:
+  HKCompCore:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HKCompCore: 5aa8b0e4d07f986077d80af1f0b3e2e41ce6c2e7
+  Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
+
+PODFILE CHECKSUM: 10083056b7fc731faf689585caedd5651363b200
+
+COCOAPODS: 1.7.5
