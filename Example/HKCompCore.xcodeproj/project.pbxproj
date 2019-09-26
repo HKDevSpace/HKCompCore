@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D6754EA5B034408536F555E /* HKCompCore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HKCompCore.podspec; path = ../HKCompCore.podspec; sourceTree = "<group>"; };
+		0D6754EA5B034408536F555E /* HKCompCore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HKCompCore.podspec; path = ../HKCompCore.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		18312AAA3188A8EF46079ADE /* Pods_HKCompCore_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HKCompCore_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FB3EE221018B5DAAA8D954 /* Pods-HKCompCore_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HKCompCore_Example.debug.xcconfig"; path = "Target Support Files/Pods-HKCompCore_Example/Pods-HKCompCore_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		46D33B0C4BBB79E81EF59329 /* Pods-HKCompCore_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HKCompCore_Example.release.xcconfig"; path = "Target Support Files/Pods-HKCompCore_Example/Pods-HKCompCore_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -64,8 +64,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2AFF8AB0A5FEDDE5E036784 /* Pods_HKCompCore_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HKCompCore_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C782A777BB2EBC84A189FD33 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E6E962EBC840013904C80753 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C782A777BB2EBC84A189FD33 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E6E962EBC840013904C80753 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EB24D03FE09704B021CA8584 /* Pods-HKCompCore_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HKCompCore_Tests.release.xcconfig"; path = "Target Support Files/Pods-HKCompCore_Tests/Pods-HKCompCore_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				5F6B718D6CD26B05305FD018 /* Pods-HKCompCore_Tests.debug.xcconfig */,
 				EB24D03FE09704B021CA8584 /* Pods-HKCompCore_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

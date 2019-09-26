@@ -15,11 +15,11 @@ typedef NSString * HKCompType;
 
 @interface HKComp : NSObject
 
-// 组件ID （通常为UUID）
-@property (copy, nonatomic, readonly) NSString *compID;
-
 // 父组件
 @property (weak, nullable, nonatomic, readonly) HKComp *superComp;
+
+// 组件ID （通常为UUID）
+@property (copy, nonatomic, readonly) NSString *compID;
 
 // 组件类型
 @property (nonatomic, readonly) HKCompType compType;
